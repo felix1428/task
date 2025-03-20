@@ -1,0 +1,131 @@
+:root{
+    /* --bor:1px solid red;  */
+}
+
+.body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom-navbar
+{
+    background-color: #333;
+    margin: 0px -15px;
+    border-radius:0px;
+    padding:15px;
+}
+.custom-navbar .navbar-brand
+{
+    font-weight: bold;
+    font-size: 39px;
+    color: white;
+    text-transform: capitalize;
+}
+.custom-navbar .navbar-nav{
+    float: right;
+}
+.custom-navbar .navbar-nav>.active>a{
+    background-color: #333;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+}
+.custom-navbar .navbar-nav>li>a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+}
+.custom-container .row{
+    padding: 100px 40px;
+    background-color: #13a89e;
+    background-image: url("../images/carousel-border.png");
+    background-position: bottom;
+    left: 0px;
+    border-bottom: black;
+    background-repeat: repeat-x;
+}
+.custom-container h1{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.custom-container p{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.custom-container button{
+    padding: 7px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.custom-container .custom-btn{
+    background-color: black;
+    color: white;
+}
+.custom-container2{
+    border: var(--bor);
+    padding: 10px 15px;
+    
+}
+.custom-container2 .child{
+    border: var(--bor);
+    margin: 15px 25px;
+    padding: 5px;
+    text-align: center;
+}
+.custom-container2 h4{
+    font-weight: bold;
+}
+
+.custom-container2 h2{
+    border: 1px solid white;
+    box-shadow: 0px 0px 2px gray;
+}
+
+.custom-container3{
+    border: var(--bor);
+}
+
+.custom-container3 img{
+    margin: 10px 0px;
+}
+.custom-container4 h1{
+    font-weight: bold;
+    font-size: 45px;
+    text-align: center;
+    padding: 15px 5px;
+    text-transform: uppercase;
+    color: #444;
+}
+.custom-container5{
+    border: var(--bor);
+    background-color:#3a3a3a;
+    color:  #868686;
+   
+}
+.custom-container5 h4{
+    display: inline;
+    margin: 10px 5px;
+    padding: 5px;
+    color: #868686;
+    border:var(--bor);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.custom-insidecon{
+    list-style: hidden;
+    color:  #868686;
+    text-decoration:underline #868686;
+}
+
+.custom-container6{
+    display: inline;
+    margin: -5px;
+}
